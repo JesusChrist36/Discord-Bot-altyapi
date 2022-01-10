@@ -1,3 +1,3 @@
-# Discord-Bot-altyapi
-Discord.js ye yeni başlayan kişiler için küçük bir altyapı
+# Mental-Bot
+Mental Bot,
 yakında alt yapı konulacak
