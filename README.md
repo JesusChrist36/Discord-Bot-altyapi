@@ -1,3 +1,2 @@
 # Mental-Bot
-Mental Bot,
-yakında alt yapı konulacak
+Mental Bot, Bot yapmak isteyenler için Mental yükselten bir altyapı
