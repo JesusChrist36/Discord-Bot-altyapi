@@ -13,19 +13,21 @@ exports.run = async (client, message, args) => {
       **[${prefix}ascii <yazı> en fazla 11 karakterlik ascii yazısı yazmanızı sağlar**
       **[${prefix}ping botun pingini söyler**
       **[${prefix}yaz <yazı> bota yazı yazdırır**
-      **[${prefix}gay<BETA> % kaç gay olduğunu söyler**
-      **[${prefix}vur<Alpha> Boks makinasına yumruk atarsınız**
+      **[${prefix}gay <kullanıcı> % kaç gay olduğunu söyler**
+      **[${prefix}vur Boks makinasına yumruk atarsınız**
       **[${prefix}meme meme(miim) atar**
       **[${prefix}emojiler sunucudaki emojileri gösterir**
       **[${prefix}kullanıcı-bilgi @Kullanıcı kullanıcı hakkında bilgiler verir**
       **[${prefix}sunucu-bilgi Sunucu hakkında bilgi verir**
+      **[${prefix}hesapla Hesap mekinesi işlevi görür**
+      **[${prefix}öp <kullanıcı> birini öpersin**
+      **[${prefix}kızcı % kaç kızcı olduğunu söyler**
+      **[${prefix}avatar Avatarınızı gösterir**
+      **[${prefix}sil <miktar> belirttiğiniz miktarda mesajı siler**
       `)
       .addField(":tools:")
 
-      .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
-      message.channel.send(embed)
-
-
+ message.channel.send(embed)
 }
 
 
