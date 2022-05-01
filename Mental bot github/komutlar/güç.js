@@ -28,12 +28,12 @@ if (sayı>500){
 }
 exports.help = {
     name: "güç",
-    description: "Boks Makinasına yumruk atar",
-    usage: "vur",
-    example: "güç"
+    description: "Searchs Wikipedia for a query",
+    usage: "wikipedia <query>",
+    example: "wikipedia cheese"
 }
 
 exports.conf = {
-    aliases: ["vur"],
+    aliases: ["yumrukat"],
     cooldown: 0
 }
